@@ -129,6 +129,15 @@ header.header {
   margin: 15px 10px;
   padding: 10px 10px 25px 10px;
 }
+
+.project-summary {
+  padding: 0px 10px 0px 5px;
+}
+
+span.button {
+  margin-left: 0px;
+
+}
   body {
     background-color: black;
   }
