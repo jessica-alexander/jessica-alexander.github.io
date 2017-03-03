@@ -1,21 +1,97 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.scss">
+    <link rel="stylesheet" type="text/css" href="stylesheets/portfolio.scss">
     <link rel="stylesheet" type="text/css" href="stylesheets/basic.scss">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <script src="https://use.fontawesome.com/4556705d74.js"></script>
     <meta charset="utf-8">
     <title>Jessica's Portfolio</title>
   </head>
   <body>
-    <h1 class='portfolio-title'></h1>
+    <header class="header">
+        <h1 class='portfolio-title'> JESSICA ALEXANDER'S PORTFOLIO</h1>
+    </header>
 
-    <div class="portfolio-container">
+    <h1 class='projects-title'> PROJECTS</h1>
+
+    <div class="project-container">
+      <div class="project-image">
+        <img src="images/beep-mainpage.png" alt="image of a highway late at night">
+
+      </div>
+      <div class="project-description">
+        <div class="project-summary">
+          <p>
+            <h1 class="project-title"> Beep</h1>
+            Autonomous Car sharing app that allows a user to sign up as a passenger or owner, and make car reservations.
+
+            <h2 class="sub-heading">Highlights:</h2>
+              <ul>
+                <li>Mobile First </li>
+                <li>Responsive Design</li>
+                <li>No frameworks</li>
+                <li>MVC Architecture</li>
+              </ul>
+          </p>
+        </div>
+        <div class="project-tools">
+          <p>
+            <h2 class="tools">Tools:</h2>
+            HTML, CSS, Javascript, Jquery, Rails, Ruby, Postgres, mySQL, SCSS
+          </p>
+        </div>
+        <div class="project-github">
+
+
+          <p> <a href="https://github.com/jessica-alexander/beep" target="_blank"><span class="button">Github</span></a>  <a href="https://obscure-bastion-41307.herokuapp.com/" target="_blank"><span class ="button">View</span></a>
+            <!-- <a href="https://github.com/jessica-alexander/beep"> <i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-globe fa-lg" aria-hidden="true"></i></a> -->
+          </p>
+        </div>
+      </div>
 
     </div>
 
-    <div class="portfolio-container">
+    <div class="project-container">
+      <div class="project-image">
+        <img src="images/seatyoself.png" alt="image of table of food">
 
+      </div>
+      <div class="project-description">
+        <div class="project-summary">
+          <p>
+            <h1 class="project-title"> SeatYoSelf</h1>
+            Restaurant reservation booking app, that allows users to search for restaurants by cuisine, price, and location.
+
+            <h2 class="sub-heading">Highlights:</h2>
+              <ul>
+                <li>MVC Architecture</li>
+                <li>ORM Framework</li>
+              </ul>
+          </p>
+        </div>
+        <div class="project-tools">
+          <p>
+            <h2 class="tools">Tools:</h2>
+            HTML, CSS, Rails, Ruby, mySQL, SCSS
+          </p>
+        </div>
+        <div class="project-github">
+
+
+          <p> <a href="https://github.com/jessica-alexander/seatyourself" target="_blank"><span class="button">Github</span></a>
+            <!-- <a href="https://github.com/jessica-alexander/beep"> <i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-globe fa-lg" aria-hidden="true"></i></a> -->
+          </p>
+        </div>
     </div>
-
+    <footer>
+      <!-- <div class="icons">
+        <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+      </div> -->
+    </footer>
   </body>
 </html>
