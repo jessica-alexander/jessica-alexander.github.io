@@ -1,13 +1,13 @@
 
 body{
   background-color: white;
-  opacity: 0.7;
+  /*opacity: 0.7;*/
   z-index: 500;
 }
 .nav-bar{
   font-size: 16pt;
   float: left;
-  // width: 5%;
+  /*width: 5%;*/
   position: relative;
   text-align: left;
   margin-left: 2%;
@@ -20,7 +20,14 @@ li {
   float: left;
   position: relative;
   left: 125%;
-  margin-right: 10%;
+  /*margin-right: 10%;*/
+
+}
+
+.nav-bar-links {
+  position: relative;
+  width: 100%;
+  float: left;
 }
 
 .header{
@@ -30,12 +37,15 @@ li {
   top: 0;
   clear: both;
   font-size: 16pt;
+  background-color: white;
+  opacity: 0.7;
+  z-index: 100;
 }
 
 .contact-me, .projects, .skills, .about-me {
   padding-left: 25px;
   padding-top: 10px;
-  color: black
+  color: blue;
 }
 
 img {
@@ -60,4 +70,33 @@ img {
 
 .image2 {
   // text-align: right;
+}
+
+.welcome {
+  color: white;
+  font-size: 40%;
+  text-align: center;
+  width: 0px;
+  height: 0px;
+ border-top: 100px solid blue;
+ border-right: 500px solid white;
+
+  position: relative;
+  -webkit-animation: welcome 8s;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation: welcome 8s ;
+}
+
+@-webkit-keyframes welcome {
+  0% {top: 0px;}
+  50% {top: 200px; color:grey;}
+  75% {top: 0px; width:500px; height:200px; text-align:center; color: blue; font-size:50px; padding-top:100px; border-right: 100px solid black; }
+  100% {top: 0px;}
+}
+
+@keyframes welcome {
+    0% {top: 0px;}
+    50% {top: 200px; color:grey;}
+    75% {top: 0px; width:500px; height:200px; text-align:center; color: blue; font-size:50px; padding-top:100px; border-right: 100px solid black; }
+    100% {top: 0px;}
 }
