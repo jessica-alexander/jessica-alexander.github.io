@@ -5,13 +5,15 @@ body {
     background: -o-linear-gradient(right, #00c0ee,#00b7b5, #00ae87); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, #00c0ee,#00b7b5, #00ae87); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #00c0ee ,#00b7b5, #00ae87); /* Standard syntax */
+
+    font-family:'Josefin Sans', sans-serif;
 }
 
 p.intials {
     font-size: 303px;
     margin-top: 12%;
     border: solid 11px white;
-    margin-left: 33%;
+    /*margin-left: 33%;*/
     padding: 25px;
     display: inline-block;
 }
@@ -25,4 +27,12 @@ h2.name, p.intials{
 h2.name {
     margin-top: 50px;
     font-size: 500%;
+}
+.title{
+  text-align: center;
+  border: 1px solid black;
+
+}
+div {
+  text-align: center;
 }
