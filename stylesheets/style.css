@@ -59,6 +59,10 @@ nav.nav-bar {
     font-family: 'Pontano Sans', sans-serif;
 }
 
+li.about-link {
+  padding-right: 10px;
+}
+
 .project-container {
   height: 350px;
   max-width: 800px;
