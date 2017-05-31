@@ -52,6 +52,13 @@ li {
     display: inline;
 }
 
+nav.nav-bar {
+    text-align: right;
+    padding: 10px 14px;
+    color: white;
+    font-family: 'Pontano Sans', sans-serif;
+}
+
 .project-container {
   height: 350px;
   max-width: 800px;
