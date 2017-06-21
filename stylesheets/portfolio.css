@@ -5,6 +5,8 @@ body {
     background: -o-linear-gradient(right, #00c0ee,#00b7b5, #00ae87); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, #00c0ee,#00b7b5, #00ae87); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #00c0ee ,#00b7b5, #00ae87); /* Standard syntax */
+
+
 }
 
 h1.portfolio-title {
@@ -31,6 +33,7 @@ h1.portfolio-title {
   background-color: white;
   box-shadow: 2px 1px 6px 1px #00bee4;
   border-radius: 29px;
+  font-family: 'Pontano Sans', sans-serif;
 }
 
 .project-image {
