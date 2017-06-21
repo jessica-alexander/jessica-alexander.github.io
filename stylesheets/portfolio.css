@@ -124,6 +124,7 @@ h2.sub-heading {
   margin-bottom: 0;
   bottom: 0;
   width: 100%;
+  font-family: 'Pontano Sans', sans-serif;
 }
 
 @media (max-width: 500px) {
