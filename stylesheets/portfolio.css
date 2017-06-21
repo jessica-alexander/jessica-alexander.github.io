@@ -151,6 +151,10 @@ h2.sub-heading {
 
 }
 
+.project-tools {
+    margin-right: 8px;
+}
+
 .project-container {
   height: auto;
   background: white;
@@ -170,7 +174,7 @@ span.button {
   margin-left: 0px;
 
 }
-  body {
+  /*body {
     background-color: black;
-  }
+  }*/
 }
