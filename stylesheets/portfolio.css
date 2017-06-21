@@ -90,10 +90,10 @@ h2.tools {
 
 span.button {
     border: 1px solid;
-    padding: 10px;
-    margin-left: 9px;
+    padding: 13px;
     background-color: darkgoldenrod;
     color: white;
+    border-radius: 9px;
 }
 a {
     text-decoration: none;
