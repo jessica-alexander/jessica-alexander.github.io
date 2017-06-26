@@ -142,6 +142,10 @@ h2.sub-heading {
   }
   body, html { overflow-x:hidden; }
 
+  h1.portfolio-title {
+    position: absolute;
+  }
+
   .project-image {
     // width: 51%;
     /* float: left; */
