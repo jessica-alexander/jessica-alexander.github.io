@@ -127,7 +127,7 @@ h2.sub-heading {
   font-family: 'Pontano Sans', sans-serif;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 
   body {
 
@@ -136,9 +136,11 @@ h2.sub-heading {
       background: -o-linear-gradient(right, #00c0ee,#00b7b5, #00ae87); /* For Opera 11.1 to 12.0 */
       background: -moz-linear-gradient(right, #00c0ee,#00b7b5, #00ae87); /* For Firefox 3.6 to 15 */
       background: linear-gradient(to right, #00c0ee ,#00b7b5, #00ae87); /* Standard syntax */
-
+      overflow: hidden;
+      margin: auto;
 
   }
+  body, html { overflow-x:hidden; }
 
   .project-image {
     // width: 51%;
@@ -175,6 +177,7 @@ h2.sub-heading {
   overflow: hidden;
   margin: 15px 10px;
   padding: 10px 10px 25px 10px;
+  max-width: 90%;
 }
 
 .project-summary {
