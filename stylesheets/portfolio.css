@@ -197,3 +197,11 @@ span.button {
     background-color: black;
   }*/
 }
+
+@media (min-width: 1200px) {
+
+  .footer {
+    position: fixed;
+    margin-bottom: 0;
+    /*position: 0px;*/
+  }
