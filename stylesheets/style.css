@@ -155,6 +155,13 @@ h2.sub-heading {
     font-size: 20pt;
 
 }
+
+.about{
+  margin-top: 30px;
+  padding-top: 30px;
+  background-color: white;
+  text-align: left;
+}
 .footer {
   background: white;
   color: darkgoldenrod;
