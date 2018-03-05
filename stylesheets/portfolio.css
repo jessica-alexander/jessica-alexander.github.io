@@ -52,6 +52,15 @@ img {
 
 }
 
+.tom-img{
+  height: 304px;
+  margin-left: 10px;
+}
+
+.tom-img2{
+  /*margin-left: 10px;*/
+}
+
 .projects-title {
     color: white;
     padding: 18px 10px;
@@ -205,3 +214,5 @@ span.button {
     margin-bottom: 0;
     /*position: 0px;*/
   }
+
+}
