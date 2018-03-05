@@ -123,11 +123,16 @@ h2.sub-heading {
     font-size: 20pt;
     margin-bottom: 85px;
 }
-.footer {
+
+.tom-container {
+  margin-bottom: 110px;
+}
+
+footer.footer {
   background: white;
   color: darkgoldenrod;
   margin-top: 60px;
-  max-width: 100%;
+  /*max-width: 100%;*/
   text-align: center;
   padding: 20px 0;
   margin-bottom: 0;
